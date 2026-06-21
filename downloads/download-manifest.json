@@ -1,0 +1,27 @@
+﻿[
+    {
+        "file":  "Codex-PCBang-Launcher-LB2026062200-v0.1.2-win-x64.exe",
+        "bytes":  94513806,
+        "sha256":  "74C0E2FC4FB2976E239EF2948448B0264F6A6F0AD16AC22585FA0267D33EF479"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-LB2026062200-v0.1.2-win-x64.zip",
+        "bytes":  133061664,
+        "sha256":  "966FD2142D6B84E3FD5C1B4B0652D9BECB79D091978A620A98CFC31C1681A08B"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-PF2026062200-v0.1.2-win-x64.exe",
+        "bytes":  94513800,
+        "sha256":  "FDEA9B0BFDA10AB0826C2735620EC66368C8079F88DBEF20A3A4D7E75C9861F8"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-PF2026062200-v0.1.2-win-x64.zip",
+        "bytes":  133005049,
+        "sha256":  "DD180BDB36783A99B6490984EC2604835B3793CEB149425998E492C6D1EDDBAB"
+    },
+    {
+        "file":  "Launcher-Manual-KO.pdf",
+        "bytes":  1229069,
+        "sha256":  "61AB23DADA2E3AFA0A7B134894DC221922639F537007057961C9670CC2AAE01F"
+    }
+]
