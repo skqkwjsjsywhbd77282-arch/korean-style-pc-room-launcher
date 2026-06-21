@@ -1,0 +1,42 @@
+﻿[
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-0.1.1-win-x64.exe",
+        "bytes":  94263593,
+        "sha256":  "C3B43ED2B3A2C47BBAAC4D2E213FEDE191642C00DE8635F3E41252389B945691"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-0.1.1-win-ia32.exe",
+        "bytes":  82137264,
+        "sha256":  "065DA69AF819EC665D6B2EBA4C140AA68866CBD1842F93E5EECEBF0862066AEC"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-0.1.1-win-arm64.exe",
+        "bytes":  88923505,
+        "sha256":  "1EE11DFD91441526B5A83B0CCE538B0EE76226A35BC86EA0518F0FB8A841982B"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-0.1.1-win-x64.zip",
+        "bytes":  132752562,
+        "sha256":  "49518677426EFA9C2BB0D85072917BF5DEEE87C1B81D2A152DC3BEBD165B3B07"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-0.1.1-win-ia32.zip",
+        "bytes":  114096952,
+        "sha256":  "69CA705FF49CBE013AD44A461BB327F7ED4FE0CBB5D2855FC0C8DDC80AE0D2F7"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-0.1.1-win-arm64.zip",
+        "bytes":  131991260,
+        "sha256":  "3B30BD41BFAE33D3E3FE32BD84C6A016ACAFE658BAF337B41CF27493DC16462E"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-USB-Portable-0.1.1-win-x64.zip",
+        "bytes":  137388246,
+        "sha256":  "0346388362FA8F239B9F538E79708AAB1D6E377D0C6090DC66B28FDE8FC847BA"
+    },
+    {
+        "file":  "Launcher-Manual-KO.pdf",
+        "bytes":  910754,
+        "sha256":  "3E8F7D7350F66CCC69F67DDC29682C90E5AD107A49062FD7445E62F9B841D1D1"
+    }
+]
