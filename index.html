@@ -1,0 +1,247 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Korean-style PC Room Launcher</title>
+  <meta name="description" content="개인용 로컬 PC방 스타일 Windows 런처 다운로드 페이지">
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <header class="site-header" aria-label="사이트 상단">
+    <a class="brand" href="#top">Korean-style PC Room Launcher</a>
+    <nav aria-label="페이지 이동">
+      <a href="#preview">미리보기</a>
+      <a href="#downloads">다운로드</a>
+      <a href="#updater">업데이터</a>
+      <a href="./versions.html">버전</a>
+      <a href="#manual">사용법</a>
+      <a href="#developer">개발자</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="제품 소개">
+      <div class="hero-copy">
+        <p class="eyebrow">Local Windows Launcher</p>
+        <h1>Korean-style PC Room Launcher</h1>
+        <p class="lead">개인 PC에서 PC방 감성의 로그인 화면, 잔여시간 위젯, 카테고리 런처를 로컬 중심으로 사용하는 Windows 런처입니다.</p>
+        <div class="hero-badges" aria-label="제품 상태">
+          <span>로컬 실행 중심</span>
+          <span>관리자 권한 설치</span>
+          <span>수동 카테고리 관리</span>
+          <span>전용 소프트웨어 지원 예정</span>
+        </div>
+        <div class="hero-actions">
+          <a class="primary-action" download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-Setup-LB2026062715-v0.1.5-win-x64.exe">LB 통합판 설치관리자 받기</a>
+          <a class="secondary-action" download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-Setup-PF2026062715-v0.1.5-win-x64.exe">PF 런처판 설치관리자 받기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="요약 정보">
+      <div>
+        <strong>Local first</strong>
+        <span>서버 의존을 줄이고 로컬 파일 기반으로 동작</span>
+      </div>
+      <div>
+        <strong>Manual category</strong>
+        <span>사용자가 폴더에 바로가기와 파일을 직접 넣는 방식</span>
+      </div>
+      <div>
+        <strong>Separated updater</strong>
+        <span>업데이트 프로그램을 런처와 분리해 공급망 위험 완화</span>
+      </div>
+      <div>
+        <strong>Early prototype</strong>
+        <span>Windows x64, 1920x1080 중심으로 검증</span>
+      </div>
+    </section>
+
+    <section class="section" id="preview">
+      <div class="section-head">
+        <p class="eyebrow">Preview</p>
+        <h2>런처와 로그인 화면</h2>
+        <p>공개 배포용 초안은 특정 업체 UI, 광고 이미지, 게임 로고를 직접 포함하지 않는 방향으로 정리했습니다.</p>
+      </div>
+      <div class="preview-grid">
+        <figure>
+          <img src="./assets/launcher-preview.png" alt="PC방 스타일 런처 화면 미리보기">
+          <figcaption>바탕화면 위에 놓이는 카테고리 런처</figcaption>
+        </figure>
+        <figure>
+          <img src="./assets/login-preview.png" alt="PC방 스타일 로그인 화면 미리보기">
+          <figcaption>비회원 시작과 회원 로그인 중심의 키오스크 화면</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section split" id="manual">
+      <div>
+        <p class="eyebrow">Category system</p>
+        <h2>앱을 폴더에 넣는 방식</h2>
+        <p>설치 후 다운로드 폴더에 <code>Codex PCBang Launcher Categories</code> 폴더가 생성됩니다. 원하는 카테고리 폴더에 바로가기, 실행 파일, URL, 폴더를 넣으면 런처에 표시됩니다.</p>
+      </div>
+      <div class="manual-panel">
+        <strong>수동형 관리</strong>
+        <p>자동 감시 프로그램 없이 사용자가 직접 넣고 빼는 구조입니다.</p>
+        <a download href="./Launcher-Manual-KO.pdf">PDF 매뉴얼 받기</a>
+      </div>
+    </section>
+
+    <section class="section uninstall-note" id="uninstall">
+      <div class="section-head compact">
+        <p class="eyebrow">Uninstall</p>
+        <h2>삭제 방법</h2>
+      </div>
+      <ol>
+        <li>Windows 제어판을 열고 검색창에 <strong>프로그램 제거</strong>를 입력합니다.</li>
+        <li><strong>프로그램 제거 또는 변경</strong> 화면에서 Korean-style PC Room Launcher를 선택합니다.</li>
+        <li>상단의 <strong>제거/변경</strong>을 누르고 안내에 따라 삭제합니다. 더 정확한 방법은 PDF 매뉴얼 파일에서 확인하세요.</li>
+      </ol>
+      <p class="uninstall-warning">주의: Windows 안전모드에서 Malware Zero 같은 정리 도구를 실행하면 이 프로그램도 삭제될 수 있습니다.</p>
+      <div class="compatibility-note">
+        <strong>호환성 및 책임 안내</strong>
+        <p>Windows 64비트는 정상 작동을 기준으로 배포하지만, 32비트와 ARM64는 아직 확인이 끝나지 않았습니다.</p>
+        <p>이 런처의 설치, 사용, 삭제, 호환성 문제에 대한 최종 책임은 사용자에게 있습니다. 지속적인 업데이트는 보장되지 않으며 Windows 64비트 1920x1080 환경에서만 실험했습니다.</p>
+        <p>오픈소스로 공개될 예정이므로 비공식 업데이트가 진행될 가능성은 있지만, 공식 호환성 보장은 아닙니다.</p>
+      </div>
+    </section>
+
+    <section class="section updater-section" id="updater">
+      <div class="section-head compact">
+        <p class="eyebrow">Dedicated software</p>
+        <h2>자동 업데이트 프로그램</h2>
+        <p>업데이터는 런처와 별도로 설치됩니다. 자동 업데이트를 켜거나, 필요할 때만 선택적으로 확인하도록 고를 수 있습니다.</p>
+      </div>
+      <div class="updater-card">
+        <div>
+          <strong>Codex PCBang Updater</strong>
+          <p>Windows 업데이트 창을 모티브로 한 전용 업데이트 프로그램입니다. 런처 자동 탐색과 수동 탐색을 모두 지원하고, 서명된 업데이트 매니페스트와 SHA256 검증을 통과한 설치관리자만 실행합니다.</p>
+          <ul>
+            <li>자동 모드: Windows 시작 시 백그라운드 확인 후 업데이트가 있을 때만 알림</li>
+            <li>선택 모드: 사용자가 직접 실행하고 확인 버튼을 눌렀을 때만 검사</li>
+            <li>보안 모드: 무음 설치 없음, 사용자 확인 후 설치관리자 실행</li>
+          </ul>
+        </div>
+        <a class="primary-action" download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Updater-Setup-UP2026062715-v0.1.5-win-x64.exe">업데이터 설치관리자 받기</a>
+      </div>
+    </section>
+
+    <section class="section" id="downloads">
+      <div class="section-head compact">
+        <p class="eyebrow">Download</p>
+        <h2>다운로드</h2>
+        <p>일반 사용자는 LB/PF 설치관리자를 받으면 됩니다. PF는 런처판, LB는 로그인 화면이 포함된 통합판입니다.</p>
+      </div>
+      <p class="compatibility-alert">이 런처는 아직 대부분 앱과 완벽히 호환되지 않을 수 있습니다.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>구분</th>
+              <th>대상</th>
+              <th>다운로드</th>
+              <th>용량</th>
+              <th>비고</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>LB 통합판 설치관리자</td>
+              <td>Windows 64비트</td>
+              <td><a download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-Setup-LB2026062715-v0.1.5-win-x64.exe">EXE 바로 받기</a></td>
+              <td>90.2 MB</td>
+              <td>로그인 화면 포함</td>
+            </tr>
+            <tr>
+              <td>PF 런처판 설치관리자</td>
+              <td>Windows 64비트</td>
+              <td><a download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-Setup-PF2026062715-v0.1.5-win-x64.exe">EXE 바로 받기</a></td>
+              <td>90.2 MB</td>
+              <td>런처 단독 실행</td>
+            </tr>
+            <tr>
+              <td>자동 업데이트 프로그램</td>
+              <td>Windows 64비트</td>
+              <td><a download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Updater-Setup-UP2026062715-v0.1.5-win-x64.exe">EXE 바로 받기</a></td>
+              <td>89.1 MB</td>
+              <td>별도 설치, 런처 자동/수동 탐색</td>
+            </tr>
+            <tr>
+              <td>LB 통합판 압축본</td>
+              <td>Windows x64</td>
+              <td><a download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-LB2026062715-v0.1.5-win-x64.zip">ZIP 바로 받기</a></td>
+              <td>126.9 MB</td>
+              <td>로그인 화면과 런처 포함</td>
+            </tr>
+            <tr>
+              <td>PF 런처판 압축본</td>
+              <td>Windows x64</td>
+              <td><a download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-PF2026062715-v0.1.5-win-x64.zip">ZIP 바로 받기</a></td>
+              <td>126.9 MB</td>
+              <td>런처만 실행</td>
+            </tr>
+            <tr>
+              <td>설치관리자</td>
+              <td>Windows 32비트</td>
+              <td>준비 중</td>
+              <td>-</td>
+              <td>아직 확인 안 됨</td>
+            </tr>
+            <tr>
+              <td>설치관리자</td>
+              <td>Windows ARM64</td>
+              <td>준비 중</td>
+              <td>-</td>
+              <td>아직 확인 안 됨</td>
+            </tr>
+            <tr>
+              <td>매뉴얼</td>
+              <td>PDF</td>
+              <td><a download="Launcher-Manual-KO.pdf" type="application/pdf" href="./Launcher-Manual-KO.pdf">PDF 바로 받기</a></td>
+              <td>1.2 MB</td>
+              <td>카테고리 수동 추가/삭제 방법</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="individual-downloads">
+        <div>
+          <p class="eyebrow">Individual Download</p>
+          <h3>개별 다운로드</h3>
+          <p>임시로 런처 본체 압축본과 자동 업데이트 프로그램만 분리 제공합니다.</p>
+        </div>
+        <a class="download-card" download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-PF2026062715-v0.1.5-win-x64.zip">
+          <span>런처 본체</span>
+          <strong>Windows x64 압축본</strong>
+          <em>압축 해제 후 실행</em>
+        </a>
+        <a class="download-card" download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Updater-Setup-UP2026062715-v0.1.5-win-x64.exe">
+          <span>업데이터</span>
+          <strong>Windows x64 설치관리자</strong>
+          <em>자동/선택 업데이트 관리</em>
+        </a>
+      </div>
+    </section>
+
+    <section class="section developer-note" id="developer">
+      <div>
+        <p class="eyebrow">Developer / Open Source</p>
+        <h2>개발자용 자료</h2>
+        <p>소스 코드는 개발자, 보안 검토자, 고급 사용자를 위한 자료입니다. 일반 사용자는 다운로드 표의 LB/PF 설치관리자를 사용하세요.</p>
+      </div>
+      <div class="developer-actions">
+        <a class="opensource-link" href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher" target="_blank" rel="noopener">GitHub 저장소 열기</a>
+        <a class="opensource-link secondary" download href="https://github.com/skqkwjsjsywhbd77282-arch/korean-style-pc-room-launcher/releases/download/v0.1.5/Codex-PCBang-Launcher-Installer-OpenSource-2026062715.zip">개발자용 소스 ZIP 받기</a>
+        <a class="opensource-link ghost" href="./versions.html">버전/버그버전 기록 보기</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>배포 파일명과 해시는 <code>downloads/download-manifest.json</code>에서 확인할 수 있습니다. 자동 업데이트 검증에는 별도의 서명 매니페스트가 사용됩니다.</p>
+  </footer>
+</body>
+</html>
+

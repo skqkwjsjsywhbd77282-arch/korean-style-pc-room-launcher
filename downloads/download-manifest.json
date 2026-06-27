@@ -1,0 +1,37 @@
+[
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-LB2026062715-v0.1.5-win-x64.exe",
+        "bytes":  94546343,
+        "sha256":  "6790F177EA0EB5F14A3AE16F572706B7D560DFB549088DB2DA869DDAEC9B6D4D"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-PF2026062715-v0.1.5-win-x64.exe",
+        "bytes":  94546337,
+        "sha256":  "3A828F7199190D983995DF50FCD5D9B2758DAC0B500E8596BC0570E30605B37F"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-LB2026062715-v0.1.5-win-x64.zip",
+        "bytes":  133099251,
+        "sha256":  "6DD5748C18CE88F6B68A2CD4CF08BA41C923111BD76EFF6C195B13FC3B7E99E0"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-PF2026062715-v0.1.5-win-x64.zip",
+        "bytes":  133042636,
+        "sha256":  "C3831E4FEED34811AFB152C720F0925AC6EF6B22A144C9AAA62FF58DE008DB24"
+    },
+    {
+        "file":  "Codex-PCBang-Updater-Setup-UP2026062715-v0.1.5-win-x64.exe",
+        "bytes":  93467721,
+        "sha256":  "607B691DE00BDC1F43F01CE379C569F3356DEDCA67DBDD366480B06D77272E73"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-Installer-OpenSource-2026062715.zip",
+        "bytes":  12038634,
+        "sha256":  "6F3535D6DE6F2A65AC6A1049042CB23DE1E683AC08899E8E28AFF0EE7361DEBE"
+    },
+    {
+        "file":  "Launcher-Manual-KO.pdf",
+        "bytes":  1235267,
+        "sha256":  "F1604BA8DF511F94F6C0D6846807CF932F0D4D9EAF6581693A8D7C5765B4F028"
+    }
+]

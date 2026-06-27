@@ -1,0 +1,19 @@
+Codex PCBang Launcher Installer Open Source Notice
+
+This source package covers only the installer/distribution edition under:
+C:\Users\a\CodexPcBangLauncher-LegalSafeDraft
+
+The user's personal local launcher edition is intentionally excluded. That
+private edition may contain personal customization, local shortcuts, screenshots,
+icons, logos, and other third-party assets with copyright or trademark risk.
+
+Application code in this installer source package is released under the MIT
+License.
+
+Third-party product names, service names, trademarks, logos, screenshots, icons,
+and other brand assets are not owned by this project. They remain the property of
+their respective owners and may require separate permission for redistribution.
+
+The launcher is still experimental. Windows x64 on 1920x1080 has been the main
+test target. 32-bit Windows, ARM64 Windows, other resolutions, and all third-party
+apps are not guaranteed to work.

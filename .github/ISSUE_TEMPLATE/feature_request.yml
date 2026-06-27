@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a focused launcher improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Login screen
+        - Launcher UI
+        - Category management
+        - Installer
+        - Uninstaller
+        - Audio/device switching
+        - Documentation
+        - Other
+    validations:
+      required: true

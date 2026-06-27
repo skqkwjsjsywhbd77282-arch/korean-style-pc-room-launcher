@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible launcher or installer bug.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this only for reproducible technical issues. Do not attach private files or suspicious binaries.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Example: v0.1.5, LB2026062715
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options:
+        - LB
+        - PF
+        - ZIP/unpacked
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List exact steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version, architecture, display resolution, install path.
+    validations:
+      required: true
