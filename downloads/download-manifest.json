@@ -1,0 +1,32 @@
+[
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-LB2026062714-v0.1.4-win-x64.exe",
+        "bytes":  94548400,
+        "sha256":  "765871E404A284A7C92B3E61151E451E94F95D088440F221B9E3C7CF4BCF5D87"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-Setup-PF2026062714-v0.1.4-win-x64.exe",
+        "bytes":  94548389,
+        "sha256":  "74E67B3D3821557E6E62C3C66FADD0DDED923012FA52E3A9EAE7608792309A2C"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-LB2026062714-v0.1.4-win-x64.zip",
+        "bytes":  133042547,
+        "sha256":  "853A93AAC7690F6304BF066AEDDC536960433DBACF4928B93EEB093CEA8C11FA"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-PF2026062714-v0.1.4-win-x64.zip",
+        "bytes":  133042543,
+        "sha256":  "C55AD643E67DF474F4EF6B7B10A0A5FEEF615E95FF07018CCF67FC2A511BFA65"
+    },
+    {
+        "file":  "Codex-PCBang-Launcher-Installer-OpenSource-2026062714.zip",
+        "bytes":  14056255,
+        "sha256":  "16F1D5AC3760AA31331485B299166B6D2AA1AAA7ADDC9CB13E706EB9A788F008"
+    },
+    {
+        "file":  "Launcher-Manual-KO.pdf",
+        "bytes":  1235267,
+        "sha256":  "F1604BA8DF511F94F6C0D6846807CF932F0D4D9EAF6581693A8D7C5765B4F028"
+    }
+]
